@@ -1,0 +1,24 @@
+.card-img-wrapper {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.card-img-wrapper img {
+    width: 100%;
+    height: auto;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.card-img-wrapper img:last-child {
+    display: none;
+}
+
+.card-img-wrapper:hover img:first-child {
+    display: none;
+}
+
+.card-img-wrapper:hover img:last-child {
+    display: block;
+}
